@@ -148,7 +148,7 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
    - For the analysis, it is assumed that the sales amount represents the **pre-discount** value, while the sales amounts shown in charts are calculated **after discounts**.
 
 ----
-# **Detailed Analysis** 
+# **Detailed Analysis (Appendix)** 
 
 ## **Overview of Findings**
 
