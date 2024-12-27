@@ -225,27 +225,13 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 - **Category 2**: Similar trends, falling to $70.30K in 2025 (-14.7% YoY).
 - **Category 3**: Highest growth in 2024 (+6%) but steepest decline in 2025 (-17.3%).
 
----
-
 ### **Top-Performing Subcategories**
 1. **Subcategory 5**: Most profitable subcategory across all years.
 2. **Subcategory 4**: Strong but declined in 2025.
 
----
-
 ### **Top Products**
 - Products **49**, **50**, and **40** consistently delivered the highest sales and profits.
-
----
 
 ### **Demographics**
 - Customers were evenly split between genders, with the 26–65 age group accounting for the majority of purchases.
 
----
-
-### **Recommendations**
-1. Reassess **pricing and cost management** to sustain profit margins.
-2. Invest in **high-performing subcategories** and products.
-3. Leverage **target demographics** to create tailored marketing campaigns.
-
----
