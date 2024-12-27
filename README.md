@@ -17,18 +17,17 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 ![image](https://github.com/user-attachments/assets/d690dbee-e2d3-4e89-90b5-2e308d5ca500)
 ---
 
-## **Data Completeness**
+### **Data Completeness**
 1. All three sheets contain complete data with no missing values.
 2. The data for the year **2025 ends in September**, preventing a full 3-year sales trend analysis. Missing data from **October to December 2025** creates an artificial dip in sales.
 
 ---
 
-## **Data Integrity**
+### **Data Integrity**
 - No duplicate **Order IDs** were identified in the dataset, ensuring data reliability.
 
----
 
-## **Key Integration Challenge**
+### **Key Integration Challenge**
 - The **Sales_data** sheet lacks a **Customer ID** column, making it impossible to join with the **Customer_data** sheet.
 - This limitation affects our ability to:
   - Perform **customer segmentation**.
