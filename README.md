@@ -65,19 +65,31 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 **Sales (2024-2025)**
  ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
 
+**Profit (2023 - 2024)**
+![image](https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630)
 
-https://public.tableau.com/app/profile/tariq.ijaz/viz/OwndaysSalesDashboard/OverviewDash?publish=yes
-
-
-
-
-
+**Profit (2024 - 2025)**
+![image](https://github.com/user-attachments/assets/8bdf3604-50c2-4a6d-be5c-2bf94026449b)
 
 
 ### **Category, Subcategory, and Product Performance**
 - **Category 3** exhibited the highest growth in 2024 (+6%) but saw the sharpest decline in 2025 (-17.3%), reflecting demand volatility.
 - **Subcategory 5** and top products (e.g., **49**, **50**, **40**) consistently ranked as high performers in both sales and profit.
 - Profitability dropped across all **categories** and **subcategories** in 2025 due to increased costs or reduced demand.
+
+**Sales (2023 - 2024)**    
+
+![image](https://github.com/user-attachments/assets/d18c544f-0c3a-4a80-934b-0b4f400d59bb)
+
+**Sales (2024-2025)**
+
+![image](https://github.com/user-attachments/assets/74fe53e5-c016-4db0-80c7-ae5486ee4022)
+
+**Profit (2023 - 2024)**
+![image](https://github.com/user-attachments/assets/4a3c7e02-08d1-4791-ad43-71d31ed2f9af)
+
+**Profit (2024 - 2025)**
+![image](https://github.com/user-attachments/assets/86cf994e-21da-4ac3-a49c-68e61e267c34)
 
 ### **Demographics**
 - Customers were evenly split between **males** and **females**, with the most active age group being **26–65**, consistent across all years.
