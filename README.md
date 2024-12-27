@@ -41,10 +41,10 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Profit** mirrored sales trends, increasing from **$19.5K** in 2023 to **$20.5K** in 2024 (+5%) before declining sharply to **$15.6K** in 2025 (-24% YoY).
 - **Profit margins** were stable between 2023 and 2024 (8.1% to 8.2%) but fell to **7.4%** in 2025, indicating cost pressures or pricing challenges.
 
-**2023 - 2024**
+**Overall 2023 - 2024**
 ![image](https://github.com/user-attachments/assets/72788df1-cbe8-4872-a7bd-71d07d1641f4)
 
-**2024 - 2025**
+**Overall 2024 - 2025**
 ![image](https://github.com/user-attachments/assets/0eccb040-9374-405e-9cff-36cb550fccd7)
 
 
@@ -59,16 +59,17 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Region 1** demonstrated efficient logistics and relatively smaller declines (-16.4% sales, -24.2% profit).
 
 
-**Sales (2023 - 2024)**                                                                                 
+**Regional Sales (2023 - 2024)**                                                                                 
 ![image](https://github.com/user-attachments/assets/a0b0d0b8-c994-45f7-98b0-1deba365d7bb)           
 
-**Sales (2024-2025)**
+**Regional Sales (2024-2025)**
  ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
 
-**Profit (2023 - 2024)**
+
+**Regional Profit (2023 - 2024)**
 ![image](https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630)
 
-**Profit (2024 - 2025)**
+**Regional Profit (2024 - 2025)**
 ![image](https://github.com/user-attachments/assets/8bdf3604-50c2-4a6d-be5c-2bf94026449b)
 
 
@@ -77,18 +78,20 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Subcategory 5** and top products (e.g., **49**, **50**, **40**) consistently ranked as high performers in both sales and profit.
 - Profitability dropped across all **categories** and **subcategories** in 2025 due to increased costs or reduced demand.
 
-**Sales (2023 - 2024)**    
+**Category Sales (2023 - 2024)**    
 
 ![image](https://github.com/user-attachments/assets/d18c544f-0c3a-4a80-934b-0b4f400d59bb)
 
-**Sales (2024-2025)**
+**Category Sales (2024-2025)**
 
 ![image](https://github.com/user-attachments/assets/74fe53e5-c016-4db0-80c7-ae5486ee4022)
 
-**Profit (2023 - 2024)**
+
+**Category Profit (2023 - 2024)**
 ![image](https://github.com/user-attachments/assets/4a3c7e02-08d1-4791-ad43-71d31ed2f9af)
 
-**Profit (2024 - 2025)**
+
+**Category Profit (2024 - 2025)**
 ![image](https://github.com/user-attachments/assets/86cf994e-21da-4ac3-a49c-68e61e267c34)
 
 ### **Demographics**
