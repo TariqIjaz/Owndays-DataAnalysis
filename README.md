@@ -66,8 +66,8 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
  ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
 
 
-<div style="display: flex; justify-content: space-around;">
-  <div>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="margin-right: 10px;">
     <p><strong>Regional Profit (2023 - 2024)</strong></p>
     <img src="https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630" alt="Regional Profit 2023-2024" width="400">
   </div>
