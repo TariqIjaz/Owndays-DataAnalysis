@@ -65,18 +65,9 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 **Regional Sales (2024-2025)**
  ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
 
-
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <div style="margin-right: 10px;">
-    <p><strong>Regional Profit (2023 - 2024)</strong></p>
-    <img src="https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630" alt="Regional Profit 2023-2024" width="400">
-  </div>
-  <div>
-    <p><strong>Regional Profit (2024 - 2025)</strong></p>
-    <img src="https://github.com/user-attachments/assets/8bdf3604-50c2-4a6d-be5c-2bf94026449b" alt="Regional Profit 2024-2025" width="400">
-  </div>
-</div>
-
+| Regional Profit (2023 - 2024) | Regional Profit (2024 - 2025) |
+|:---:|:---:|
+| ![Regional Profit 2023-2024](https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630) | ![Regional Profit 2024-2025](https://github.com/user-attachments/assets/8bdf3604-50c2-4a6d-be5c-2bf94026449b) |
 
 **Regional Profit (2023 - 2024)**
 ![image](https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630)
