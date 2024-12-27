@@ -58,22 +58,14 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Regions 3 and 4** consistently lagged, with high shipping costs and delivery delays contributing to lower performance.
 - **Region 1** demonstrated efficient logistics and relatively smaller declines (-16.4% sales, -24.2% profit).
 
+| Regional Sales (2023 - 2024) | Regional Sales (2024-2025) |
+|:---:|:---:|
+| ![image](https://github.com/user-attachments/assets/024313f4-a235-4746-9f53-a10aa624a127) | ![image](https://github.com/user-attachments/assets/75108c25-92be-42a7-aed0-8558c268f158) |
 
-**Regional Sales (2023 - 2024)**                                                                                 
-![image](https://github.com/user-attachments/assets/a0b0d0b8-c994-45f7-98b0-1deba365d7bb)           
-
-**Regional Sales (2024-2025)**
- ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
 
 | Regional Profit (2023 - 2024) | Regional Profit (2024 - 2025) |
 |:---:|:---:|
 | ![Regional Profit 2023-2024](https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630) | ![Regional Profit 2024-2025](https://github.com/user-attachments/assets/8bdf3604-50c2-4a6d-be5c-2bf94026449b) |
-
-**Regional Profit (2023 - 2024)**
-![image](https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630)
-
-**Regional Profit (2024 - 2025)**
-![image](https://github.com/user-attachments/assets/8bdf3604-50c2-4a6d-be5c-2bf94026449b)
 
 
 ### **Category, Subcategory, and Product Performance**
