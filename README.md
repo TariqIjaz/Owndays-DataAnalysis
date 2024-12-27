@@ -21,11 +21,8 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 1. All three sheets contain complete data with no missing values.
 2. The data for the year **2025 ends in September**, preventing a full 3-year sales trend analysis. Missing data from **October to December 2025** creates an artificial dip in sales.
 
----
-
 ### **Data Integrity**
 - No duplicate **Order IDs** were identified in the dataset, ensuring data reliability.
-
 
 ### **Key Integration Challenge**
 - The **Sales_data** sheet lacks a **Customer ID** column, making it impossible to join with the **Customer_data** sheet.
@@ -56,6 +53,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 ### **Customer and Order Metrics**
 - **Customer numbers** were stagnant at **200** across all years, highlighting a lack of growth in customer acquisition.
 - **Order volume** increased slightly from **365** in 2023 to **366** in 2024 before falling to **269** in 2025 (-26.5%), reflecting lower customer demand.
+- **Average Order Value (AOV)** increased over the three years: **$141.6** in 2023, **$145.0** in 2024, and **$166.3** in 2025. Despite fewer orders in 2025, the higher AOV suggests larger transactions per order
 
 ### **Regional Insights**
 - **Region 2** consistently outperformed others in sales and profit through 2024 but faced the steepest decline in 2025 (-17.6% sales, -25% profit).
@@ -75,7 +73,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 ## **Recommendations**
 
 ### **Customer Acquisition**
-- **Launch targeted marketing campaigns** aimed at increasing the customer base, focusing on the **26–65 age group**.
+- **Launch targeted marketing campaigns** aimed at increasing the customer base, focusing on the **26–65 age group**. (Due to missing customer_ID in the sales_data sheet, we have limited drill-down capabilities)
 - Introduce **loyalty programs** or **incentives** to convert occasional buyers into repeat customers.
 
 ### **Operational Efficiency**
@@ -89,9 +87,10 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 ### **Product and Pricing Strategy**
 - Leverage **high-performing subcategories** and products like **Subcategory 5** and products **49, 50, 40** by expanding their availability and promoting them further.
 - Conduct a **cost-benefit analysis** to reassess pricing strategies and reduce cost pressures impacting profit margins.
+- Leverage the increasing AOV by analyzing which **products or services** contribute most to this growth and expanding these offerings.
 
 ### **Market Analysis and Strategy**
-- Conduct a **root cause analysis** to identify factors behind the significant decline in 2025 sales and profits, focusing on external market dynamics (e.g., competition, economic conditions) and internal inefficiencies.
+- Conduct a **root cause analysis** to identify factors behind the significant decline in 2025 sales and profits, focusing on external market dynamics (e.g., competition, economic conditions) and internal inefficiencies (missing data (October - December 2025).
 - **Reignite growth in Region 2** through new product launches and strategic partnerships.
 
 ### **Risk Mitigation for Volatility**
@@ -131,7 +130,7 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
    - For the analysis, it is assumed that the sales amount represents the **pre-discount** value, while the sales amounts shown in charts are calculated **after discounts**.
 
 ----
-# **Detailed Analysis**
+# **Detailed Analysis** 
 
 ## **Overview of Findings**
 
@@ -164,23 +163,6 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 - The increase in AOV is a positive trend, but the decline in orders and sales in 2025 suggests operational challenges or external factors affecting demand.
 - Profit margin reduction in 2025 indicates a potential **cost management issue** or an imbalance in the pricing strategy.
 - The sharp drop in metrics for 2025 (October onwards) could be attributed to **missing records**, emphasizing the importance of complete and accurate data for analysis.
-
----
-
-### **Recommendations**
-
-#### **Customer Growth**
-- Focus on **customer acquisition campaigns** to expand the customer base. This could include targeted marketing or loyalty programs to attract and retain more customers.
-
-#### **Operational Efficiency**
-- Investigate operational challenges in 2025 and address factors affecting **order volume** and **profit margins**.
-
-#### **Data Integrity**
-- Ensure **data completeness** for better analysis in the future. Missing data could obscure key trends and lead to incorrect conclusions.
-
-#### **Product and Pricing Strategy**
-- Leverage the increasing AOV by analyzing which **products or services** contribute most to this growth and expanding these offerings.
-- Consider **price adjustments** or **cost optimization** to improve profit margins.
 
 ---
 
@@ -242,19 +224,6 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 - **Region 1**: Lowest average shipping cost and delivery days, maintaining operational efficiency across all years.
 - **Region 2**: Balanced shipping costs and delivery times, maintaining reliability.
 - **Regions 3 and 4**: Highest shipping costs and delivery times, possibly contributing to declining sales and profits in 2025.
-
----
-
-### **Insights**
-- **Declining Sales and Profits in 2025**: All regions experienced a significant decline, with Region 2 facing the steepest drop.
-- **Operational Efficiency**: Region 1 demonstrated efficient logistics, serving as a benchmark for other regions.
-
----
-
-### **Recommendations**
-1. Conduct a deeper analysis to identify reasons for the decline in **2025 sales and profits**.
-2. Focus on **reducing shipping costs** and delivery times in Regions 3 and 4.
-3. Leverage **Region 1’s logistics model** to improve performance in other regions.
 
 ---
 
