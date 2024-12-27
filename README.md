@@ -7,8 +7,7 @@ processes.
 - **Product Level Performance**: An analysis of XYZ Corp’s various product lines, understanding their impact on sales and returns.
 - **Regional Comparisons**: An evaluation of sales and orders by region.
 
-An interactive Tableau dashboard can be viewed:<br>
-<a href="https://public.tableau.com/app/profile/tariq.ijaz/viz/OwndaysSalesDashboard/OverviewDash?publish=yes" target="_blank">here</a>
+An interactive Tableau dashboard can be viewed:<br><a href="https://public.tableau.com/app/profile/tariq.ijaz/viz/OwndaysSalesDashboard/OverviewDash?publish=yes" target="_blank">here</a>
 
 ---
 
@@ -17,7 +16,9 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 
 ![image](https://github.com/user-attachments/assets/d690dbee-e2d3-4e89-90b5-2e308d5ca500)
 
-Data Completeness: The Sales_data and Operational_data sheets contain complete data with no missing values.
+Data Completeness: 
+1)The Sales_data and Operational_data sheets contain complete data with no missing values.
+2) The data for the year 2025 ends in September. This will prevents us from getting a full complete 3 year sales trends, as we would anticipate a dip in sales due to  missing months (November & December)
 Data Integrity: There are no duplicate Order IDs in the dataset.
 Key Integration Challenge: The main data quality issue is the absence of Customer ID in the Sales_data sheet, which prevents us from joining it with the customer_data sheet. This limitation impacts our ability to analyze detailed customer segmentation and calculate customer-specific metrics.
 
@@ -28,37 +29,150 @@ Regional and product analyses remain reliable as they don't depend on customer d
 
 ---
 
-### **Executive Summary**  
+## **Executive Summary**  
 
-#### **Overview of Findings**  
-- **Sales Revenue** increased by around **50%** from **2021-2023**. The growth has been steady year-over-year:
-  - **2021 to 2022**: Revenue increased by **29.5%**, ending with total sales of **$609K**.
-  - **2022 to 2023**: Revenue increased by **20.4%**, ending with total sales of **$733K**.
+### **Overview of Findings**
 
-- **Total Profit** increased by around **50%** from **2021-2023**, with a slowing growth rate:
-  - **2021 to 2022**: Profit increased by **24.7%**, ending with total profit of **$82K**.
-  - **2022 to 2023**: Profit increased by **12.5%**, ending with total profit of **$93K**.
+Over the three-year period, the company experienced fluctuating sales, profits, and operational metrics, highlighting areas of success and emerging challenges.
 
-- **Order Volume** increased by around **55%** from **2021-2023**:
-  - **2021 to 2022**: Orders increased by **26.7%**.
-  - **2022 to 2023**: Orders increased by **28.3%**.
-  - **Key Insight**: Volume continues to be a major driver of sales.
+Key Performance Trends:
+Sales:
 
-- **Total Customers** increased by around **27.1%** from **2021-2023**:
-  - **2021 to 2022**: Customers increased by **16.3%**.
-  - **2022 to 2023**: Customers increased by **10.8%**.
+2023: Total sales stood at $43.9K, with strong performance in June and December, indicating seasonal trends.
+2024: Sales grew slightly to $45.1K (+2.6% YoY) due to a strong start in January and consistent peaks mid-year.
+2025: Sales declined sharply to $38.0K (-15.8% YoY) due to reduced orders and missing data for October onwards.
+Profit:
+
+2023: Total profit was $3.5K, maintaining a modest margin.
+2024: Profit rose slightly to $3.6K (+3.7% YoY) despite modest sales growth, indicating improved cost efficiency.
+2025: Profit fell to $2.8K (-23.7% YoY) as a result of declining sales and increased operational challenges.
+Orders and Customers:
+
+Orders decreased significantly from 365 in 2023 to 269 in 2025 (-26.5% YoY from 2024 to 2025), reflecting a worrying trend of reduced purchase activity.
+Customer count remained stagnant at 200 across all three years, highlighting a lack of growth in customer acquisition.
+Seasonality:
+
+Peak sales months remained consistent (June, August, and December) across years, underscoring opportunities to leverage seasonal trends.
+Early months like January 2024 performed well, contrasting with weaker starts in 2023 and 2025.
+Key Insights:
+Growth Plateau: After modest growth in 2024, the business faced a substantial downturn in 2025, likely driven by reduced order volumes and stagnant customer acquisition.
+Profit Margin Challenges: The declining profit in 2025 suggests cost inefficiencies or a drop in pricing power, which needs immediate attention.
+Customer Retention Issues: The lack of growth in the customer base, despite some sales improvements, indicates potential gaps in customer engagement or acquisition strategies.
+Recommendations:
+Boost Customer Acquisition:
+
+Implement targeted marketing campaigns and loyalty programs to attract and retain customers.
+Address any barriers to entry for new customers, such as pricing or user experience.
+Improve Operational Efficiency:
+
+Optimize cost structures to prevent profit erosion.
+Analyze product margins and eliminate low-margin offerings where necessary.
+Leverage Seasonal Trends:
+
+Double down on successful months (June, August, December) with tailored campaigns and inventory planning.
+Explore promotions during historically weaker months to drive off-season sales.
+Enhance Data Completeness:
+
+Ensure consistent and accurate data collection across all months to enable a comprehensive year-over-year analysis and better decision-making.
+Conclusion:
+While 2024 showed some progress, the significant drop in sales and profit in 2025 signals the need for immediate strategic action. Focusing on customer acquisition, cost management, and leveraging seasonal opportunities will be critical to reversing the current downward trend and achieving sustainable growth.
+
+
 
 ---
+### Region Performance
 
-### **Sales Trends**  
-The company’s sales showed consistent year-over-year growth from **2021 to 2023**, with notable seasonal peaks in December.  
+Regional Performance Summary (2023–2025):
 
-- **2021**: Sales began with moderate performance but improved significantly by year-end.  
-- **2022**: Sales peaked in **December** at **$609K**, reflecting a **29.5% increase** compared to 2021. The post-holiday dip in **January 2022** was followed by stable growth throughout the year.  
-- **2023**: Sales continued to grow, reaching **$733K** in December, representing a **20.4% year-over-year increase**.  
-- **Key Insights**: While overall growth remained positive, the rate of revenue growth moderated in 2023. Q4 consistently performed the strongest, highlighting reliance on seasonal demand.  
+Region 1 (Texas):
 
----
+Sales:
+2023: $12.94K
+2024: $13.02K (+0.6% vs. 2023)
+2025: $11.04K (-15.2% vs. 2024)
+
+Profit:
+2023: $874
+2024: $892 (+2.0% vs. 2023)
+2025: $684 (-23.3% vs. 2024)
+
+Key Insights:
+Region 1 remains the leader in sales and profit but experienced sharp declines in both metrics in 2025.
+Despite modest growth in 2024, the region saw a significant erosion of profitability in 2025.
+
+Region 2 :
+
+Sales:
+2023: $11.54K
+2024: $11.99K (+3.9% vs. 2023)
+2025: $9.99K (-16.7% vs. 2024)
+
+Profit:
+2023: $872
+2024: $912 (+4.6% vs. 2023)
+2025: $691 (-24.3% vs. 2024)
+
+Key Insights:
+Region 2 saw the strongest profit growth in 2024 (+4.6%) but suffered the steepest declines in both sales and profit in 2025.
+The decline indicates inefficiencies or weakened customer demand.
+Region 3:
+
+Sales:
+2023: $10.33K
+2024: $10.73K (+3.9% vs. 2023)
+2025: $8.94K (-16.7% vs. 2024)
+
+Profit:
+2023: $881
+2024: $922 (+4.6% vs. 2023)
+2025: $697 (-24.3% vs. 2024)
+
+Key Insights:
+Region 3 followed a similar trajectory to Region 2, with consistent profit growth in 2024 but a steep decline in 2025.
+Underperformance in 2025 signals operational or market-related challenges.
+Region 4:
+
+Sales:
+2023: $9.10K
+2024: $9.33K (+2.5% vs. 2023)
+2025: $7.99K (-14.3% vs. 2024)
+
+Profit:
+2023: $890
+2024: $923 (+3.6% vs. 2023)
+2025: $712 (-22.8% vs. 2024)
+
+Key Insights:
+Region 4 had the smallest decline in sales in 2025 but still experienced significant profit loss (-22.8%), highlighting inefficiencies in cost management.
+Trends and Observations:
+2023:
+Sales and profit showed steady performance, with Region 4 achieving the highest profit despite being the lowest in sales.
+2024:
+All regions experienced sales and profit growth, with Regions 2 and 3 leading in profit increases (+4.6%).
+Investments in operational efficiency likely drove profit growth, even in lower-performing regions like Region 4.
+2025:
+A sharp downturn occurred across all regions, with profit declines exceeding sales drops in percentage terms.
+Regions 2 and 3 saw the steepest losses (-24.3%) in profit, while Region 4 was comparatively less affected.
+
+Opportunities and Recommendations:
+Focus on Cost Management:
+
+The disproportionate decline in profits in 2025 suggests rising costs or inefficient pricing strategies. Implement cost-cutting measures and refine pricing models across all regions.
+Revitalize Underperforming Regions:
+
+Target Regions 2 and 3 with specific initiatives to recover both sales and profitability. This includes customer engagement strategies, discounts, and operational optimizations.
+Sustain Growth in Region 4:
+
+Despite being the lowest in sales, Region 4 demonstrated relative profit resilience. Leverage this trend to further stabilize and grow this region.
+Capitalize on Peak Seasons:
+
+Across all years, profits and sales consistently peaked mid-year (May–July). Expand marketing and inventory strategies during these months to maximize returns.
+Conduct Root-Cause Analysis:
+
+Investigate the drivers behind the widespread declines in 2025. Consider factors such as economic conditions, customer behavior, or operational inefficiencies.
+
+
+
 
 ### **Product Performance**  
 
