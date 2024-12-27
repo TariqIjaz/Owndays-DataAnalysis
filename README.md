@@ -43,7 +43,6 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 
 **Overall 2023 - 2024**
 ![image](https://github.com/user-attachments/assets/72788df1-cbe8-4872-a7bd-71d07d1641f4)
-
 ___
 **Overall 2024 - 2025**
 ![image](https://github.com/user-attachments/assets/0eccb040-9374-405e-9cff-36cb550fccd7)
