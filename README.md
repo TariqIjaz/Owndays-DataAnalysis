@@ -73,6 +73,17 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Subcategory 5** and top products (e.g., **49**, **50**, **40**) consistently ranked as high performers in both sales and profit.
 - Profitability dropped across all **categories** and **subcategories** in 2025 due to increased costs or reduced demand.
 
+| Category Sales (2023 - 2024) | Category Sales (2024-2025) |
+|:---:|:---:|
+| ![image](https://github.com/user-attachments/assets/d18c544f-0c3a-4a80-934b-0b4f400d59bb) | ![image](https://github.com/user-attachments/assets/74fe53e5-c016-4db0-80c7-ae5486ee4022) |
+
+
+
+| Category Profit (2023 - 2024) | Category Profit (2024 - 2025) |
+|:---:|:---:|
+| ![image](https://github.com/user-attachments/assets/4a3c7e02-08d1-4791-ad43-71d31ed2f9af) | ![image](https://github.com/user-attachments/assets/86cf994e-21da-4ac3-a49c-68e61e267c34) |
+
+
 **Category Sales (2023 - 2024)**    
 
 ![image](https://github.com/user-attachments/assets/d18c544f-0c3a-4a80-934b-0b4f400d59bb)
