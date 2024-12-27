@@ -41,10 +41,10 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Profit** mirrored sales trends, increasing from **$19.5K** in 2023 to **$20.5K** in 2024 (+5%) before declining sharply to **$15.6K** in 2025 (-24% YoY).
 - **Profit margins** were stable between 2023 and 2024 (8.1% to 8.2%) but fell to **7.4%** in 2025, indicating cost pressures or pricing challenges.
 
-2023 - 2024
+**2023 - 2024**
 ![image](https://github.com/user-attachments/assets/72788df1-cbe8-4872-a7bd-71d07d1641f4)
 
-2024 - 2025
+**2024 - 2025**
 ![image](https://github.com/user-attachments/assets/0eccb040-9374-405e-9cff-36cb550fccd7)
 
 
@@ -59,16 +59,14 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Region 1** demonstrated efficient logistics and relatively smaller declines (-16.4% sales, -24.2% profit).
 
 
-Sales (2023 - 2024)                                                                                  Sales (2024-2025)
-![image](https://github.com/user-attachments/assets/a0b0d0b8-c994-45f7-98b0-1deba365d7bb)            ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
+**Sales (2023 - 2024)**                                                                                 
+![image](https://github.com/user-attachments/assets/a0b0d0b8-c994-45f7-98b0-1deba365d7bb)           
+
+**Sales (2024-2025)**
+ ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
 
 
-
-
-
-2023- 2025
-Profit
-
+https://public.tableau.com/app/profile/tariq.ijaz/viz/OwndaysSalesDashboard/OverviewDash?publish=yes
 
 
 
