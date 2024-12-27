@@ -41,6 +41,13 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Profit** mirrored sales trends, increasing from **$19.5K** in 2023 to **$20.5K** in 2024 (+5%) before declining sharply to **$15.6K** in 2025 (-24% YoY).
 - **Profit margins** were stable between 2023 and 2024 (8.1% to 8.2%) but fell to **7.4%** in 2025, indicating cost pressures or pricing challenges.
 
+2023 - 2024
+![image](https://github.com/user-attachments/assets/72788df1-cbe8-4872-a7bd-71d07d1641f4)
+
+2024 - 2025
+![image](https://github.com/user-attachments/assets/0eccb040-9374-405e-9cff-36cb550fccd7)
+
+
 ### **Customer and Order Metrics**
 - **Customer numbers** were stagnant at **200** across all years, highlighting a lack of growth in customer acquisition.
 - **Order volume** increased slightly from **365** in 2023 to **366** in 2024 before falling to **269** in 2025 (-26.5%), reflecting lower customer demand.
