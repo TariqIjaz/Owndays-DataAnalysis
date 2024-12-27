@@ -7,7 +7,7 @@ processes.
 - **Product Level Performance**: An analysis of XYZ Corp’s various product lines, understanding their impact on sales and returns.
 - **Regional Comparisons**: An evaluation of sales and orders by region.
 
-An interactive Tableau dashboard can be viewed:<br><a href="https://public.tableau.com/app/profile/tariq.ijaz/viz/OwndaysSalesDashboard/OverviewDash?publish=yes" target="_blank">here</a>
+An interactive Tableau dashboard can be viewed: <br><a href="https://public.tableau.com/app/profile/tariq.ijaz/viz/OwndaysSalesDashboard/OverviewDash?publish=yes" target="_blank">here</a>
 
 ---
 # **Data Structure & Initial Checks**
