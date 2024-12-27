@@ -18,7 +18,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 ---
 
 ## **Data Completeness**
-1. **Sales_data** and **Operational_data** sheets contain complete data with no missing values.
+1. All three sheets contain complete data with no missing values.
 2. The data for the year **2025 ends in September**, preventing a full 3-year sales trend analysis. Missing data from **October to December 2025** creates an artificial dip in sales.
 
 ---
@@ -42,13 +42,6 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Product Performance**: Metrics such as sales and profit by product and subcategories are unaffected.
 - **Operational Metrics**: Shipping costs and delivery trends can still be analyzed reliably.
 - **Regional Performance**: Regional analyses remain valid as they don
-
-
-
-
-
-
-
 
 ---
 
