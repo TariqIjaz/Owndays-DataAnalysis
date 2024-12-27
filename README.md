@@ -43,7 +43,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 
 **Overall 2023 - 2024**
 ![image](https://github.com/user-attachments/assets/72788df1-cbe8-4872-a7bd-71d07d1641f4)
-
+-
 **Overall 2024 - 2025**
 ![image](https://github.com/user-attachments/assets/0eccb040-9374-405e-9cff-36cb550fccd7)
 
@@ -61,8 +61,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 | Regional Sales (2023 - 2024) | Regional Sales (2024-2025) |
 |:---:|:---:|
 | ![image](https://github.com/user-attachments/assets/024313f4-a235-4746-9f53-a10aa624a127) | ![image](https://github.com/user-attachments/assets/75108c25-92be-42a7-aed0-8558c268f158) |
-
-
+-
 | Regional Profit (2023 - 2024) | Regional Profit (2024 - 2025) |
 |:---:|:---:|
 | ![Regional Profit 2023-2024](https://github.com/user-attachments/assets/359b5513-0355-4189-be9c-da1fa34ad630) | ![Regional Profit 2024-2025](https://github.com/user-attachments/assets/8bdf3604-50c2-4a6d-be5c-2bf94026449b) |
@@ -76,9 +75,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 | Category Sales (2023 - 2024) | Category Sales (2024-2025) |
 |:---:|:---:|
 | ![image](https://github.com/user-attachments/assets/d18c544f-0c3a-4a80-934b-0b4f400d59bb) | ![image](https://github.com/user-attachments/assets/74fe53e5-c016-4db0-80c7-ae5486ee4022) |
-
-
-
+-
 | Category Profit (2023 - 2024) | Category Profit (2024 - 2025) |
 |:---:|:---:|
 | ![image](https://github.com/user-attachments/assets/4a3c7e02-08d1-4791-ad43-71d31ed2f9af) | ![image](https://github.com/user-attachments/assets/86cf994e-21da-4ac3-a49c-68e61e267c34) |
