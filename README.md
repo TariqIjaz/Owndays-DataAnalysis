@@ -58,6 +58,24 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 - **Regions 3 and 4** consistently lagged, with high shipping costs and delivery delays contributing to lower performance.
 - **Region 1** demonstrated efficient logistics and relatively smaller declines (-16.4% sales, -24.2% profit).
 
+
+Sales (2023 - 2024)                                                                                  Sales (2024-2025)
+![image](https://github.com/user-attachments/assets/a0b0d0b8-c994-45f7-98b0-1deba365d7bb)            ![image](https://github.com/user-attachments/assets/b546d776-a916-4797-b0ed-7c9a218ead95)
+
+
+
+
+
+2023- 2025
+Profit
+
+
+
+
+
+
+
+
 ### **Category, Subcategory, and Product Performance**
 - **Category 3** exhibited the highest growth in 2024 (+6%) but saw the sharpest decline in 2025 (-17.3%), reflecting demand volatility.
 - **Subcategory 5** and top products (e.g., **49**, **50**, **40**) consistently ranked as high performers in both sales and profit.
