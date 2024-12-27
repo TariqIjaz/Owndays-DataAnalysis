@@ -32,15 +32,6 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 
 ---
 
-## **Impact on Analysis**
-### **What We Can Analyze**:
-- **Sales Trends**: Yearly and monthly trends remain accurate.
-- **Product Performance**: Metrics such as sales and profit by product and subcategories are unaffected.
-- **Operational Metrics**: Shipping costs and delivery trends can still be analyzed reliably.
-- **Regional Performance**: Regional analyses remain valid as they don
-
----
-
 # **Executive Summary**
 
 ## **Key Findings**
