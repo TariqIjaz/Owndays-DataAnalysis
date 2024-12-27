@@ -10,22 +10,45 @@ processes.
 An interactive Tableau dashboard can be viewed:<br><a href="https://public.tableau.com/app/profile/tariq.ijaz/viz/OwndaysSalesDashboard/OverviewDash?publish=yes" target="_blank">here</a>
 
 ---
+# **Data Structure & Initial Checks**
 
-# **Data Structure & Initial Checks**  
-XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operational_data**, **Customer_data**, with **1000 records** excluding headers. We have **3 years of data from 2023-2025**.  
+XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operational_data**, and **Customer_data**, containing a total of **1000 records** (excluding headers). The dataset spans **3 years (2023–2025)**.
 
 ![image](https://github.com/user-attachments/assets/d690dbee-e2d3-4e89-90b5-2e308d5ca500)
+---
 
-Data Completeness: 
-1)The Sales_data and Operational_data sheets contain complete data with no missing values.
-2) The data for the year 2025 ends in September. This will prevents us from getting a full complete 3 year sales trends, as we would anticipate a dip in sales due to  missing months (November & December)
-Data Integrity: There are no duplicate Order IDs in the dataset.
-Key Integration Challenge: The main data quality issue is the absence of Customer ID in the Sales_data sheet, which prevents us from joining it with the customer_data sheet. This limitation impacts our ability to analyze detailed customer segmentation and calculate customer-specific metrics.
+## **Data Completeness**
+1. **Sales_data** and **Operational_data** sheets contain complete data with no missing values.
+2. The data for the year **2025 ends in September**, preventing a full 3-year sales trend analysis. Missing data from **October to December 2025** creates an artificial dip in sales.
 
-Impact on Analysis:
-We can accurately analyze sales trends, product performance, and operational metrics
-We cannot perform customer-specific analyses such as customer lifetime value or customer segmentation
-Regional and product analyses remain reliable as they don't depend on customer data
+---
+
+## **Data Integrity**
+- No duplicate **Order IDs** were identified in the dataset, ensuring data reliability.
+
+---
+
+## **Key Integration Challenge**
+- The **Sales_data** sheet lacks a **Customer ID** column, making it impossible to join with the **Customer_data** sheet.
+- This limitation affects our ability to:
+  - Perform **customer segmentation**.
+  - Calculate **customer-specific metrics** (e.g., customer lifetime value).
+
+---
+
+## **Impact on Analysis**
+### **What We Can Analyze**:
+- **Sales Trends**: Yearly and monthly trends remain accurate.
+- **Product Performance**: Metrics such as sales and profit by product and subcategories are unaffected.
+- **Operational Metrics**: Shipping costs and delivery trends can still be analyzed reliably.
+- **Regional Performance**: Regional analyses remain valid as they don
+
+
+
+
+
+
+
 
 ---
 
