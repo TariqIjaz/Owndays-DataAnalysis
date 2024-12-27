@@ -43,6 +43,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 
 **Overall 2023 - 2024**
 ![image](https://github.com/user-attachments/assets/72788df1-cbe8-4872-a7bd-71d07d1641f4)
+
 -
 **Overall 2024 - 2025**
 ![image](https://github.com/user-attachments/assets/0eccb040-9374-405e-9cff-36cb550fccd7)
@@ -61,6 +62,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 | Regional Sales (2023 - 2024) | Regional Sales (2024-2025) |
 |:---:|:---:|
 | ![image](https://github.com/user-attachments/assets/024313f4-a235-4746-9f53-a10aa624a127) | ![image](https://github.com/user-attachments/assets/75108c25-92be-42a7-aed0-8558c268f158) |
+
 -
 | Regional Profit (2023 - 2024) | Regional Profit (2024 - 2025) |
 |:---:|:---:|
