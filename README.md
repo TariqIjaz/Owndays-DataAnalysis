@@ -1,4 +1,4 @@
-### **Project Background**  
+# **Project Background**  
 XYZ Corp is a mid-sized retail company specializing in online and brick-and-mortar sales. The management team is focused on understanding sales trends, customer behavior, and operational performance to optimize decision-making
 processes. 
 
@@ -11,7 +11,7 @@ An interactive Tableau dashboard can be viewed:<br><a href="https://public.table
 
 ---
 
-### **Data Structure & Initial Checks**  
+# **Data Structure & Initial Checks**  
 XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operational_data**, **Customer_data**, with **1000 records** excluding headers. We have **3 years of data from 2023-2025**.  
 
 ![image](https://github.com/user-attachments/assets/d690dbee-e2d3-4e89-90b5-2e308d5ca500)
@@ -29,204 +29,248 @@ Regional and product analyses remain reliable as they don't depend on customer d
 
 ---
 
-## **Executive Summary**  
+# **Executive Summary**
 
-### **Overview of Findings**
+## **Key Findings**
 
-Over the three-year period, the company experienced fluctuating sales, profits, and operational metrics, highlighting areas of success and emerging challenges.
+### **Overall Sales and Profit Trends**
+- **Sales** peaked at **$250.9K** in 2024 (+4.3% YoY) but dropped significantly to **$210.2K** in 2025 (-16.2% YoY), partly due to missing data from October–December 2025.
+- **Profit** mirrored sales trends, increasing from **$19.5K** in 2023 to **$20.5K** in 2024 (+5%) before declining sharply to **$15.6K** in 2025 (-24% YoY).
+- **Profit margins** were stable between 2023 and 2024 (8.1% to 8.2%) but fell to **7.4%** in 2025, indicating cost pressures or pricing challenges.
 
-Key Performance Trends:
-Sales:
+### **Customer and Order Metrics**
+- **Customer numbers** were stagnant at **200** across all years, highlighting a lack of growth in customer acquisition.
+- **Order volume** increased slightly from **365** in 2023 to **366** in 2024 before falling to **269** in 2025 (-26.5%), reflecting lower customer demand.
 
-2023: Total sales stood at $43.9K, with strong performance in June and December, indicating seasonal trends.
-2024: Sales grew slightly to $45.1K (+2.6% YoY) due to a strong start in January and consistent peaks mid-year.
-2025: Sales declined sharply to $38.0K (-15.8% YoY) due to reduced orders and missing data for October onwards.
-Profit:
+### **Regional Insights**
+- **Region 2** consistently outperformed others in sales and profit through 2024 but faced the steepest decline in 2025 (-17.6% sales, -25% profit).
+- **Regions 3 and 4** consistently lagged, with high shipping costs and delivery delays contributing to lower performance.
+- **Region 1** demonstrated efficient logistics and relatively smaller declines (-16.4% sales, -24.2% profit).
 
-2023: Total profit was $3.5K, maintaining a modest margin.
-2024: Profit rose slightly to $3.6K (+3.7% YoY) despite modest sales growth, indicating improved cost efficiency.
-2025: Profit fell to $2.8K (-23.7% YoY) as a result of declining sales and increased operational challenges.
-Orders and Customers:
+### **Category, Subcategory, and Product Performance**
+- **Category 3** exhibited the highest growth in 2024 (+6%) but saw the sharpest decline in 2025 (-17.3%), reflecting demand volatility.
+- **Subcategory 5** and top products (e.g., **49**, **50**, **40**) consistently ranked as high performers in both sales and profit.
+- Profitability dropped across all **categories** and **subcategories** in 2025 due to increased costs or reduced demand.
 
-Orders decreased significantly from 365 in 2023 to 269 in 2025 (-26.5% YoY from 2024 to 2025), reflecting a worrying trend of reduced purchase activity.
-Customer count remained stagnant at 200 across all three years, highlighting a lack of growth in customer acquisition.
-Seasonality:
-
-Peak sales months remained consistent (June, August, and December) across years, underscoring opportunities to leverage seasonal trends.
-Early months like January 2024 performed well, contrasting with weaker starts in 2023 and 2025.
-Key Insights:
-Growth Plateau: After modest growth in 2024, the business faced a substantial downturn in 2025, likely driven by reduced order volumes and stagnant customer acquisition.
-Profit Margin Challenges: The declining profit in 2025 suggests cost inefficiencies or a drop in pricing power, which needs immediate attention.
-Customer Retention Issues: The lack of growth in the customer base, despite some sales improvements, indicates potential gaps in customer engagement or acquisition strategies.
-Recommendations:
-Boost Customer Acquisition:
-
-Implement targeted marketing campaigns and loyalty programs to attract and retain customers.
-Address any barriers to entry for new customers, such as pricing or user experience.
-Improve Operational Efficiency:
-
-Optimize cost structures to prevent profit erosion.
-Analyze product margins and eliminate low-margin offerings where necessary.
-Leverage Seasonal Trends:
-
-Double down on successful months (June, August, December) with tailored campaigns and inventory planning.
-Explore promotions during historically weaker months to drive off-season sales.
-Enhance Data Completeness:
-
-Ensure consistent and accurate data collection across all months to enable a comprehensive year-over-year analysis and better decision-making.
-Conclusion:
-While 2024 showed some progress, the significant drop in sales and profit in 2025 signals the need for immediate strategic action. Focusing on customer acquisition, cost management, and leveraging seasonal opportunities will be critical to reversing the current downward trend and achieving sustainable growth.
-
-
-
----
-### Region Performance
-
-Regional Performance Summary (2023–2025):
-
-Region 1 (Texas):
-
-Sales:
-2023: $12.94K
-2024: $13.02K (+0.6% vs. 2023)
-2025: $11.04K (-15.2% vs. 2024)
-
-Profit:
-2023: $874
-2024: $892 (+2.0% vs. 2023)
-2025: $684 (-23.3% vs. 2024)
-
-Key Insights:
-Region 1 remains the leader in sales and profit but experienced sharp declines in both metrics in 2025.
-Despite modest growth in 2024, the region saw a significant erosion of profitability in 2025.
-
-Region 2 :
-
-Sales:
-2023: $11.54K
-2024: $11.99K (+3.9% vs. 2023)
-2025: $9.99K (-16.7% vs. 2024)
-
-Profit:
-2023: $872
-2024: $912 (+4.6% vs. 2023)
-2025: $691 (-24.3% vs. 2024)
-
-Key Insights:
-Region 2 saw the strongest profit growth in 2024 (+4.6%) but suffered the steepest declines in both sales and profit in 2025.
-The decline indicates inefficiencies or weakened customer demand.
-Region 3:
-
-Sales:
-2023: $10.33K
-2024: $10.73K (+3.9% vs. 2023)
-2025: $8.94K (-16.7% vs. 2024)
-
-Profit:
-2023: $881
-2024: $922 (+4.6% vs. 2023)
-2025: $697 (-24.3% vs. 2024)
-
-Key Insights:
-Region 3 followed a similar trajectory to Region 2, with consistent profit growth in 2024 but a steep decline in 2025.
-Underperformance in 2025 signals operational or market-related challenges.
-Region 4:
-
-Sales:
-2023: $9.10K
-2024: $9.33K (+2.5% vs. 2023)
-2025: $7.99K (-14.3% vs. 2024)
-
-Profit:
-2023: $890
-2024: $923 (+3.6% vs. 2023)
-2025: $712 (-22.8% vs. 2024)
-
-Key Insights:
-Region 4 had the smallest decline in sales in 2025 but still experienced significant profit loss (-22.8%), highlighting inefficiencies in cost management.
-Trends and Observations:
-2023:
-Sales and profit showed steady performance, with Region 4 achieving the highest profit despite being the lowest in sales.
-2024:
-All regions experienced sales and profit growth, with Regions 2 and 3 leading in profit increases (+4.6%).
-Investments in operational efficiency likely drove profit growth, even in lower-performing regions like Region 4.
-2025:
-A sharp downturn occurred across all regions, with profit declines exceeding sales drops in percentage terms.
-Regions 2 and 3 saw the steepest losses (-24.3%) in profit, while Region 4 was comparatively less affected.
-
-Opportunities and Recommendations:
-Focus on Cost Management:
-
-The disproportionate decline in profits in 2025 suggests rising costs or inefficient pricing strategies. Implement cost-cutting measures and refine pricing models across all regions.
-Revitalize Underperforming Regions:
-
-Target Regions 2 and 3 with specific initiatives to recover both sales and profitability. This includes customer engagement strategies, discounts, and operational optimizations.
-Sustain Growth in Region 4:
-
-Despite being the lowest in sales, Region 4 demonstrated relative profit resilience. Leverage this trend to further stabilize and grow this region.
-Capitalize on Peak Seasons:
-
-Across all years, profits and sales consistently peaked mid-year (May–July). Expand marketing and inventory strategies during these months to maximize returns.
-Conduct Root-Cause Analysis:
-
-Investigate the drivers behind the widespread declines in 2025. Consider factors such as economic conditions, customer behavior, or operational inefficiencies.
-
-
-
-
-### **Product Performance**  
-
-- **Top-Performing Categories**:  
-  - **Furniture** and **Technology** drove the largest share of revenue, with subcategories like **Phones**, **Chairs**, and **Copiers** showing consistent profitability.  
-  - **Accessories** emerged as a growing segment, contributing significantly to both order volume and profit.  
-
-- **Underperforming Subcategories**:  
-  - **Tables** and **Bookcases** showed recurring losses. These products had lower profit margins and were impacted by high discounting.  
-  - **Labels** and **Supplies** also contributed minimally to overall revenue and exhibited low performance.  
-
-- **High-Performing Products**:  
-  - Specific product lines, such as high-end **Chairs** and **Phones**, dominated revenue contributions and profitability.  
+### **Demographics**
+- Customers were evenly split between **males** and **females**, with the most active age group being **26–65**, consistent across all years.
 
 ---
 
-### **Recommendations**  
+## **Recommendations**
 
-1. **Diversify Product Offerings**:  
-   - With growing success in **Accessories**, expand product lines for Samsung and Apple ecosystems, such as premium cables and wireless chargers, to capitalize on upsell opportunities.  
+### **Customer Acquisition**
+- **Launch targeted marketing campaigns** aimed at increasing the customer base, focusing on the **26–65 age group**.
+- Introduce **loyalty programs** or **incentives** to convert occasional buyers into repeat customers.
 
-2. **Address Underperforming Products**:  
-   - Evaluate the viability of **Tables** and **Bookcases**. Discontinue or bundle slow-moving products to improve profitability.  
-   - Implement promotional strategies such as flash sales or bundled pricing to clear low-performing inventory like **Labels** and **Supplies**.  
+### **Operational Efficiency**
+- **Region 3 and 4 Logistics**: Implement cost-reduction strategies and streamline delivery processes to reduce shipping costs and delays.
+- **Benchmark with Region 1**: Use Region 1’s operational model as a template to improve logistics across other regions.
 
-3. **Enhance Seasonal Strategies**:  
-   - Q4 remains the strongest period; launch targeted marketing campaigns earlier in Q3 to capture pre-holiday demand and boost year-end performance.  
+### **Data Integrity and Missing Records**
+- Ensure **complete and accurate data collection** to prevent gaps like the missing October–December 2025 data.
+- Standardize **data validation processes** to maintain analysis reliability.
 
-4. **Increase Focus on High-Profit Subcategories**:  
-   - Prioritize marketing and inventory optimization for **Phones**, **Chairs**, and **Copiers**, as they drive significant revenue and margins.  
+### **Product and Pricing Strategy**
+- Leverage **high-performing subcategories** and products like **Subcategory 5** and products **49, 50, 40** by expanding their availability and promoting them further.
+- Conduct a **cost-benefit analysis** to reassess pricing strategies and reduce cost pressures impacting profit margins.
 
-5. **Leverage Data for Personalization**:  
-   - Use customer purchase history to drive personalized marketing, particularly for products with repeat purchase potential (e.g., **Accessories** and office supplies).  
+### **Market Analysis and Strategy**
+- Conduct a **root cause analysis** to identify factors behind the significant decline in 2025 sales and profits, focusing on external market dynamics (e.g., competition, economic conditions) and internal inefficiencies.
+- **Reignite growth in Region 2** through new product launches and strategic partnerships.
 
-By focusing on product diversification, improving inventory performance, and optimizing seasonal marketing strategies, the company can sustain long-term growth while addressing areas of underperformance.
+### **Risk Mitigation for Volatility**
+- Develop **contingency plans** to prepare for market downturns, such as diversifying product lines or identifying alternative revenue streams to mitigate losses.
 
+---
 
-### **Assumptions and Caveats**:
+## **Next Steps**
+1. Assign a **dedicated team** to address the operational inefficiencies in Regions 3 and 4, focusing on cost and delivery optimizations.
+2. Conduct a **workshop** to redesign the 2025 marketing strategy, leveraging insights from 2023–2024 trends.
+3. Perform a **detailed profitability analysis** of underperforming products and categories to identify areas for improvement.
+4. Implement a **robust data management system** to ensure complete and accurate reporting for all future analyses.
+
+---
+## **Assumptions and Caveats**
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-1) All products (e.g., Product 1 to Product 50) are assigned to multiple categories (e.g., Product 1 belongs to all of Categories 1, 2, and 3). Since there is no documentation about the business type or what the products represent in the case study document, the subcategory analysis will provide a better picture for a categorical breakdown as the products are uniquely categorized under the sub-category. 
+1. **Product Categorization**:
+   - All products (e.g., Product 1 to Product 50) are assigned to multiple categories (e.g., Product 1 belongs to all of Categories 1, 2, and 3).
+   - Since there is no documentation about the business type or what the products represent in the case study document, the **subcategory analysis** provides a better categorical breakdown as the products are uniquely categorized under the subcategory.
 
+2. **Profit Calculation**:
+   - The documentation does not explicitly state whether the **shipping cost** is already factored into the profit column in the `Sales_data` tab. Additionally, there is no indication of whether the profit represents **Gross** or **Net Profit**.
+   - It is assumed that **shipping costs** and **OPEX** have been factored in, and the column represents **Net Profit**.
 
-2) The documentation does not explicitly mention that the shipping cost is already factored in the profit column in the Sales_data tab. In addition, there is no indication of Gross or Net Profit. I will assume that the shipping cost and OPEX have been factored in, and that column is the Net Profit.
+3. **Customer Data Limitations**:
+   - The `customer_data` tab includes columns such as Customer ID, Name, Age, Gender, Email, and Region. However, the `sales_data` tab lacks a **Customer ID** or similar column to directly relate sales to customers in the `customer_data`.
+   - Joining solely on **Region** would create a many-to-many relationship, which is not logically valid because multiple customers can belong to the same region, and the `sales_data` does not specify which customer made each purchase.
+   - As a result, in-depth analyses such as **customer purchasing behavior**, **customer lifetime value**, and **sales/profit by demographics** are limited due to these constraints.
 
+4. **Shipping Cost Application**:
+   - It is assumed that the **shipping cost** is applied to a **total order** rather than individual item quantities.
 
-3) The customer_data has columns like Customer ID, Name, Age, Gender, Email, and Region. However, the sales_data does not have a Customer ID or similar column to relate it to the customers in customer_data directly. Joining only on Region would create a many-to-many relationship, which is not logically valid because multiple customers can belong to the same region, and the sales_data does not specify which customer made each purchase. Conducting an in depth customer purchasing analysis, customer lifetime value and sales/profit by demographics are limited due to this limiting condition. 
+5. **Sales Amount and Discounts**:
+   - The `sales_amount` column does not explicitly state if the amount is **before or after the discount**.
+   - For the analysis, it is assumed that the sales amount represents the **pre-discount** value, while the sales amounts shown in charts are calculated **after discounts**.
 
+----
+# **Detailed Analysis**
 
-4) I also assume that the shipping cost is applied to a total order rather than to the item quantity.
+## **Overview of Findings**
 
+### **Trends**
 
-5) The sales amount does not state if the amount is before or after the discount. I will assume that it is before the discount. The sales amount shown on the charts are  sales after discount.
+#### **Sales Growth**
+- Sales increased from **$240.4K** in 2023 to **$250.9K** in 2024, showing a 4.3% growth year-over-year (YoY).
+- In 2025, sales dropped significantly to **$210.2K**, reflecting a decline of 16.2% compared to 2024. Missing records from October onwards might have contributed to this drop.
 
+#### **Profit and Profit Margin**
+- Profit improved from **$19.5K** in 2023 to **$20.5K** in 2024, showing a 5% YoY increase.
+- However, profit declined sharply to **$15.6K** in 2025, a 24% decrease compared to 2024.
+- Profit margins remained relatively stable between 2023 and 2024 (8.1% to 8.2%) but fell to **7.4%** in 2025, indicating possible cost increases or pricing issues.
 
+#### **Orders**
+- The number of orders showed a slight increase from **365** in 2023 to **366** in 2024 (+0.3%).
+- In 2025, orders dropped significantly to **269**, a 26.5% decrease compared to the previous year. This decline aligns with the drop in sales and could reflect lower customer demand or operational challenges.
 
+#### **Customer Retention**
+- The total number of customers remained consistent at **200** across all three years, indicating no net customer growth.
+
+#### **Average Order Value (AOV)**
+- AOV steadily increased over the three years: **$141.6** in 2023, **$145.0** in 2024, and **$166.3** in 2025.
+- Despite fewer orders in 2025, the higher AOV suggests larger transactions per order, possibly due to a focus on premium products or price adjustments.
+
+---
+
+### **Insights**
+- The consistent number of customers with no growth highlights a need for **customer acquisition strategies**.
+- The increase in AOV is a positive trend, but the decline in orders and sales in 2025 suggests operational challenges or external factors affecting demand.
+- Profit margin reduction in 2025 indicates a potential **cost management issue** or an imbalance in the pricing strategy.
+- The sharp drop in metrics for 2025 (October onwards) could be attributed to **missing records**, emphasizing the importance of complete and accurate data for analysis.
+
+---
+
+### **Recommendations**
+
+#### **Customer Growth**
+- Focus on **customer acquisition campaigns** to expand the customer base. This could include targeted marketing or loyalty programs to attract and retain more customers.
+
+#### **Operational Efficiency**
+- Investigate operational challenges in 2025 and address factors affecting **order volume** and **profit margins**.
+
+#### **Data Integrity**
+- Ensure **data completeness** for better analysis in the future. Missing data could obscure key trends and lead to incorrect conclusions.
+
+#### **Product and Pricing Strategy**
+- Leverage the increasing AOV by analyzing which **products or services** contribute most to this growth and expanding these offerings.
+- Consider **price adjustments** or **cost optimization** to improve profit margins.
+
+---
+
+## **Region Performance**
+
+### **Sales Trends by Region**
+
+#### **Region 1**
+- 2023: **$64.59K**
+- 2024: **$66.68K** (+3.2%)
+- 2025: **$55.72K** (-16.4%)
+- After slight growth in 2024, sales in Region 1 declined significantly by 16.4% in 2025, indicating challenges such as reduced demand or operational inefficiencies.
+
+#### **Region 2**
+- 2023: **$69.12K**
+- 2024: **$73.39K** (+6.2%)
+- 2025: **$60.44K** (-17.6%)
+- Region 2 showed strong growth in 2024 but faced the steepest decline among all regions in 2025, possibly due to external market challenges or competition.
+
+#### **Region 3**
+- 2023: **$51.88K**
+- 2024: **$54.01K** (+4.1%)
+- 2025: **$45.71K** (-15.4%)
+- Sales in Region 3 fell by 15.4% in 2025, reversing the moderate growth seen in previous years.
+
+#### **Region 4**
+- 2023: **$54.82K**
+- 2024: **$56.78K** (+3.6%)
+- 2025: **$48.35K** (-14.8%)
+- Region 4 experienced consistent growth in 2024, followed by a notable drop in 2025.
+
+---
+
+### **Profit Trends by Region**
+
+#### **Region 1**
+- 2023: **$4.40K**
+- 2024: **$4.58K** (+4.1%)
+- 2025: **$3.47K** (-24.2%)
+
+#### **Region 2**
+- 2023: **$5.26K**
+- 2024: **$5.59K** (+6.3%)
+- 2025: **$4.20K** (-25.0%)
+
+#### **Region 3**
+- 2023: **$4.46K**
+- 2024: **$4.67K** (+4.8%)
+- 2025: **$3.57K** (-23.5%)
+
+#### **Region 4**
+- 2023: **$5.39K**
+- 2024: **$5.63K** (+4.5%)
+- 2025: **$4.33K** (-23.2%)
+
+---
+
+### **Shipping Cost vs. Delivery Days by Region**
+- **Region 1**: Lowest average shipping cost and delivery days, maintaining operational efficiency across all years.
+- **Region 2**: Balanced shipping costs and delivery times, maintaining reliability.
+- **Regions 3 and 4**: Highest shipping costs and delivery times, possibly contributing to declining sales and profits in 2025.
+
+---
+
+### **Insights**
+- **Declining Sales and Profits in 2025**: All regions experienced a significant decline, with Region 2 facing the steepest drop.
+- **Operational Efficiency**: Region 1 demonstrated efficient logistics, serving as a benchmark for other regions.
+
+---
+
+### **Recommendations**
+1. Conduct a deeper analysis to identify reasons for the decline in **2025 sales and profits**.
+2. Focus on **reducing shipping costs** and delivery times in Regions 3 and 4.
+3. Leverage **Region 1’s logistics model** to improve performance in other regions.
+
+---
+
+## **Category, Subcategory, and Product Performance**
+
+### **Sales Trends by Categories**
+- **Category 1**: Peaked in 2024 ($84.06K) before declining to $70.12K in 2025 (-16.6% YoY).
+- **Category 2**: Similar trends, falling to $70.30K in 2025 (-14.7% YoY).
+- **Category 3**: Highest growth in 2024 (+6%) but steepest decline in 2025 (-17.3%).
+
+---
+
+### **Top-Performing Subcategories**
+1. **Subcategory 5**: Most profitable subcategory across all years.
+2. **Subcategory 4**: Strong but declined in 2025.
+
+---
+
+### **Top Products**
+- Products **49**, **50**, and **40** consistently delivered the highest sales and profits.
+
+---
+
+### **Demographics**
+- Customers were evenly split between genders, with the 26–65 age group accounting for the majority of purchases.
+
+---
+
+### **Recommendations**
+1. Reassess **pricing and cost management** to sustain profit margins.
+2. Invest in **high-performing subcategories** and products.
+3. Leverage **target demographics** to create tailored marketing campaigns.
+
+---
