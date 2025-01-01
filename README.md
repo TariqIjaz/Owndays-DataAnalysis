@@ -118,7 +118,7 @@ XYZ Corp’s data structure consists of **3 tables**: **Sales_data**, **Operatio
 
 ## **Next Steps**
 1. Assign a **dedicated team** to address the operational inefficiencies in Regions 3 and 4, focusing on cost and delivery optimizations.
-2. Conduct a **workshop** to redesign the 2025 marketing strategy, leveraging insights from 2023–2024 trends.
+2. Conduct a **workshop** to redesign the 2026 marketing strategy, leveraging insights from 2023–2024 trends.
 3. Perform a **detailed profitability analysis** of underperforming products and categories to identify areas for improvement.
 4. Implement a **robust data management system** to ensure complete and accurate reporting for all future analyses.
 
